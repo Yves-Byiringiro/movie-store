@@ -1,0 +1,702 @@
+body{
+    background-color: black;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap:0px;
+    max-width:100%;
+    
+    
+}
+.container > *{
+    grid-column: 1/span 12;
+    
+}
+.walking-dead{
+    background:url('../img/walking dead2.jpg'); 
+   background-size:cover; 
+    height:600px; 
+    color:blue;
+}
+.walking-dead a{
+    text-decoration: none;
+}
+.walking-dead h1{
+  
+    margin-bottom: -26px;
+    margin-left: 92px;
+    color: goldenrod;
+    font-size: 83px;
+    margin-top: 230px;
+}
+    
+
+.walking-dead p{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+.walking-dead .title-walking{
+    color: goldenrod;
+    font-size: 90px;
+    font-weight: 700;
+}
+.riviera{
+    background:url('../img/riviera.jpg'); 
+    height:600px; 
+    background-size:cover; 
+   
+}
+.riviera a{
+    text-decoration: none;
+}
+.riviera h1{
+   
+    margin-left: 92px;
+    color: goldenrod;
+    font-size: 83px;
+    margin-top: 310px
+  
+    
+}
+.riviera p{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+
+}
+.little{
+    background:url('../img/little.jpg'); 
+    height:600px; 
+    background-size:cover;   
+}
+.little a{
+    text-decoration: none;
+}
+.little h1{
+    margin-bottom: -26px;
+    margin-left: 92px;
+    color: greenyellow;
+    font-size: 83px;
+    margin-top: 290px;
+    
+}
+.little .tittle{
+    color: greenyellow;
+    font-size: 55px;
+}
+.little p{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px; 
+}
+.mc-mafia{
+    background:url('../img/mc\ mafia.jpg'); 
+    height:600px; 
+    background-size:cover; 
+}
+.mc-mafia a{
+    text-decoration: none;
+}
+.mc-mafia h1{
+    color: red;
+    font-size: 79px;
+    margin-left: 20px;
+    font-weight: 900;
+    margin-top: 330px     
+}
+.mc-mafia p{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;   
+}
+.discovery{
+    background:url('../img/discovery\ of\ witches2.jpg'); 
+    height:600px; 
+    background-size:cover;
+}
+.discovery a{
+    text-decoration: none;
+}
+.discovery h1{
+    font-size: 67px;
+    margin-left: 187px;
+    color: white;
+    margin-top: 155px;
+    margin-bottom: -15px;
+
+}
+.discovery h4{
+    font-family: serif;
+    margin-top: 10px;
+    font-size: 3.5rem;
+    color: white;
+    margin-left: 56px
+    
+
+}
+.discovery h5{
+    font-family: serif;
+    margin-top: 10px;
+    font-size: 3.5rem;
+    color: white;
+    margin-left: 56px
+
+}
+
+.discovery .yelow{
+    margin-left: 49px;
+    color: yellow;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+  
+}
+.discovery .original{
+    color:white;
+    font-size: 20px;
+    margin-left: 111px
+    
+}
+.discovery p{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;  
+}
+.cold-blooded{
+    background:url('../img/Cold-Blooded-1600x720.jpg'); 
+    height:600px; 
+    background-size:cover; 
+}
+.cold-blooded a{
+    text-decoration: none;
+}
+.cold-blooded h1{
+    font-size: 74px;
+    color: white;
+    margin-top: 268px;
+    margin-left: 87px;
+    font-weight: 700;
+    font-family: serif;
+    
+}
+.cold-blooded .pcold{
+    margin-top: -49px;
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: 700;
+    font-family: serif;
+    font-size: 81px;
+    margin-left: 83px;    
+}
+.cold-blooded .red{
+    color: red;
+    margin-top: -45px;
+    margin-left: 99px;
+    font-weight: 700;
+    font-size: 21px;  
+}
+.cold-blooded P{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;  
+}
+.next-kin{
+    background:url('../img/next\ of\ kin2.jpeg');
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover; 
+    height:600px; 
+
+}
+.next-kin a{
+    text-decoration: none;
+}
+.next-kin h1{
+    margin-top: 300px;
+    margin-left: 20px;
+    color: white;
+    font-size: 68px;
+}
+.next-kin p{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px; 
+}
+.next-kin .kin{
+    margin-left: 77px;
+    color: yellow;
+    font-size: 20px;
+    margin-top: -7px;
+ 
+}
+.rosehaven{
+    background: url(../img/rosehaven.jpg);
+    height: 600px;
+    background-size: cover;
+    margin-bottom: -21px;   
+}
+.rosehaven a{
+    text-decoration: none;
+}
+.rosehaven h1{
+    margin-top: 330px;
+    margin-left: 68px;
+    color: white;
+    font-size: 81px;
+    font-weight: 700; 
+}
+.rosehaven p{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;   
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!end of part 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.walking-dead2{
+    background:url('../img/walking dead2.jpg'); 
+    background-size:cover; 
+     height:450px; 
+     color:white;
+}
+.walking-dead2 a{
+    text-decoration: none;
+}
+.walking-dead2 h1{
+    margin-top: 39px;
+    margin-left: 567px;
+    font-size: 2.5rem;
+    color: goldenrod;
+    margin-bottom:-10px;
+}
+.walking-dead2 h4{
+    margin-left: 467px;
+    font-size: 2.5rem;
+    color: goldenrod;
+    float: center; 
+    font-weight:800;
+}
+.walknav{
+    display: flex;
+    margin-left: 463px;
+    
+}
+.walknav a{
+    padding:20px;
+    color:white;
+    font-weight: 900;
+    text-decoration:none;
+}
+.walking-dead2 p{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+   
+
+}
+.walking-dead2 .one{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: -11px;
+}
+button{
+    background: black;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card img{
+    
+    max-width:100%;
+    height:350px;
+    background-size:cover;
+}
+.row{
+    background-color: black;
+    margin-top:20px;
+}
+.show{
+    color:white;
+}
+.shows{
+    color: white;
+    padding:10px;
+    margin-left: 288px;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!end of part 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.riviera2{
+    background:url('../img/riviera.jpg'); 
+    background-size:cover; 
+     height:450px; 
+     color:white;  
+}
+.riviera2 a{
+    text-decoration: none;
+}
+.riviera2 h1{
+    margin-top: 39px;
+    margin-left: 567px;
+    font-size: 2.5rem;
+    color: goldenrod;
+    margin-bottom:-10px;
+    font-weight:900;
+}
+.rivieranav{
+    display: flex;
+    margin-left: 463px;
+    
+}
+.rivieranav a{
+    padding:20px;
+    color:white;
+    font-weight: 900;
+    text-decoration:none;
+}
+.riviera2 p{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+   
+
+}
+.riviera2 .one{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: -11px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!end of part 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.little2{
+    background:url('../img/little.jpg'); 
+    background-size:cover; 
+     height:450px; 
+     color:white; 
+}
+.little2 a{
+    text-decoration: none;
+}
+.little2 h1{
+    margin-top: 39px;
+    margin-left: 567px;
+    font-size: 2.5rem;
+    color: goldenrod;
+    margin-bottom:-10px;
+    font-weight:900;
+}
+.littleanav{
+    display: flex;
+    margin-left: 463px;
+    
+}
+.littleanav a{
+    padding:20px;
+    color:white;
+    font-weight: 900;
+    text-decoration:none;
+}
+.little2 p{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+   
+
+}
+.little2 .one{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: -11px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!end of part 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.mc-mafia2{
+    background:url('../img/mc\ mafia.jpg'); 
+    background-size:cover; 
+     height:450px; 
+     color:white; 
+}
+.mc-mafia2{
+    text-decoration: none;
+}
+.mc-mafia2 h1{
+    margin-top: 39px;
+    margin-left: 567px;
+    font-size: 2.5rem;
+    color:orangered;
+    margin-bottom:-10px;
+    font-weight:900;
+}
+.mc-mafianav{
+    display: flex;
+    margin-left: 463px;
+    
+}
+.mc-mafianav a{
+    padding:20px;
+    color:white;
+    font-weight: 900;
+    text-decoration:none;
+}
+.mc-mafia2 p{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+   
+
+}
+.mc-mafia2 .one{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: -11px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!end of part 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.discovery2{
+    background:url('../img/discovery\ of\ witches2.jpg'); 
+    background-size:cover; 
+     height:450px; 
+     color:white; 
+}
+.discovery2 a{
+    text-decoration: none;
+}
+.discovery2 h1{
+    margin-top: 39px;
+    margin-left: 567px;
+    font-size: 2.5rem;
+    color: goldenrod;
+    margin-bottom:-10px;
+    font-weight:900;
+}
+.discoverynav{
+    display: flex;
+    margin-left: 463px;
+    
+}
+.discoverynav a{
+    padding:20px;
+    color:white;
+    font-weight: 900;
+    text-decoration:none;
+}
+.discovery2 p{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+   
+
+}
+.discovery2 .one{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: -11px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!end of part 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.cold2{
+    background:url('../img/Cold-Blooded-1600x720.jpg'); 
+    background-size:cover; 
+     height:450px; 
+     color:white; 
+}
+.cold2 a{
+    text-decoration: none;
+}
+.cold2 h1{
+    margin-top: 39px;
+    margin-left: 567px;
+    font-size: 2.5rem;
+    color: goldenrod;
+    margin-bottom:-10px;
+    font-weight:900;
+}
+.coldnav{
+    display: flex;
+    margin-left: 463px;
+    
+}
+.coldnav a{
+    padding:20px;
+    color:white;
+    font-weight: 900;
+    text-decoration:none;
+}
+.cold2 p{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+   
+
+}
+.cold2 .one{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: -11px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! End Cold Blooded!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.kin2{
+    background:url('../img/next\ of\ kin2.jpeg'); 
+    background-size:cover; 
+     height:450px; 
+     color:white; 
+}
+.kin2 a{
+    text-decoration: none;
+}
+.kin2 h1{
+    margin-top: 39px;
+    margin-left: 567px;
+    font-size: 2.5rem;
+    color: goldenrod;
+    margin-bottom:-10px;
+    font-weight:900;
+}
+.kinnav{
+    display: flex;
+    margin-left: 463px;
+    
+}
+.kinnav a{
+    padding:20px;
+    color:white;
+    font-weight: 900;
+    text-decoration:none;
+}
+.kin2 p{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+   
+
+}
+.kin2 .one{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: -11px;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  End of Next Kin!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.rosehaven2{
+    background:url('../img/rosehaven.jpg'); 
+    background-size:cover; 
+     height:450px; 
+     color:white; 
+}
+.rosehaven2 a{
+    text-decoration: none;
+}
+.rosehaven2 h1{
+    margin-top: 39px;
+    margin-left: 567px;
+    font-size: 2.5rem;
+    color: goldenrod;
+    margin-bottom:-10px;
+    font-weight:900;
+}
+.rosehavennav{
+    display: flex;
+    margin-left: 463px;
+    
+}
+.rosehavennav a{
+    padding:20px;
+    color:white;
+    font-weight: 900;
+    text-decoration:none;
+}
+.rosehaven2 p{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+   
+
+}
+.rosehaven2 .one{
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: -11px;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  End of rosehaven!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.epi p{
+    margin-bottom: 1rem;
+    margin-top: 33px;
+    color: white;
+}
+.epi h4{
+    color:goldenrod;
+}
+.epi h3{
+
+}
+.disco h4 {
+    color:goldenrod;
+    margin-left:200px;
+}
+.disco p{
+    color:white;
+}
+footer {
+    background:black;
+    padding: 12px 38px;
+    margin-top: 33px;
+}
+
+footer .sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-gap: 16px;
+}
+footer .sections section a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+footer .sections section a:hover {
+    text-decoration: underline;
+}
+footer .sections section h4 {
+    font-size: 24px;
+    color: #fff;    
+}
+.sections section .footerlink{
+    font-size: 30px;
+}
+.kino{
+    background:url('../img/kin3.jpg'); 
+    height:600px; 
+    background-size:cover; 
+}
+.kino h4{
+    font-size: 3.5rem;
+    color: white;
+    margin-top: 359px;
+}
+.kino p{
+    font-size: 3.5rem;
+    color: white; 
+}
+.kino a{
+    text-decoration:none;
+}
